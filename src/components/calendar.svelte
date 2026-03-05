@@ -58,7 +58,7 @@
 
 		{#each cells as day}
 			{#if day === null}
-				<div class="cell empty" />
+				<div class="cell empty"></div>
 			{:else}
 				<div class="cell {day === config.day ? 'wedding' : ''} {isSunday(day) ? 'sun' : ''}">
 					<div class="day">{day}</div>

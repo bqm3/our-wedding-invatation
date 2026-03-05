@@ -54,7 +54,8 @@
 			allowfullscreen
 			loading="lazy"
 			referrerpolicy="no-referrer-when-downgrade"
-		/>
+	>
+	</iframe>
 	</div>
 
 	<p class="signature en">made with ♡ by Quang Minh & Anh Thư</p>
