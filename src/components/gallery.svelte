@@ -39,7 +39,7 @@
 			height: 1800
 		},
 		{
-			src: photo13,
+			src: photo6,
 			width: 1200,
 			height: 1800
 		},
@@ -49,9 +49,9 @@
 			height: 1800
 		},
 		{
-			src: photo4,
-			width: 2000,
-			height: 1333
+			src: photo14,
+			width: 1200,
+			height: 1800
 		},
 		{
 			src: photo5,
@@ -59,9 +59,9 @@
 			height: 1800
 		},
 		{
-			src: photo6,
-			width: 2000,
-			height: 1333
+			src: photo13,
+			width: 1200,
+			height: 1800
 		},
 		{
 			src: photo7,
@@ -69,7 +69,7 @@
 			height: 1800
 		},
 		{
-			src: photo8,
+			src: photo15,
 			width: 1200,
 			height: 1800
 		},
@@ -79,7 +79,7 @@
 			height: 1790
 		},
 		{
-			src: photo11,
+			src: photo12,
 			width: 1200,
 			height: 1790
 		}
@@ -123,7 +123,7 @@
 			letter-spacing: 1px;
 		}
 
-		&.kr {
+		&.vi {
 			@extend .title-font-vi;
 			letter-spacing: 1px;
 		}
@@ -131,7 +131,7 @@
 
 	p.sub-title {
 		text-align: center;
-		&.kr {
+		&.vi {
 			margin-top: 0.9em;
 			font-size: 0.9rem;
 		}
@@ -146,7 +146,7 @@
 		display: grid;
 		gap: 1em;
 		grid-template-columns: repeat(2, 1fr);
-		grid-auto-rows: 6.5em;
+		// grid-auto-rows: 6.5em;
 	}
 
 	img.thumbnail {

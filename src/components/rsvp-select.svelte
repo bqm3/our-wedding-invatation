@@ -116,23 +116,26 @@
 			border-radius: 4px;
 			padding: 0.7em;
 			letter-spacing: 0.02em;
+			
 
 			&:not(:last-child) {
 				margin-bottom: 0.5em;
 			}
 
 			&[data-highlighted] {
-				background-color: $primary-color-light-2;
+				background-color: $primary-color-light;
+				color: $white;
 			}
 
 			.check-container {
 				position: absolute;
 				top: 0.7em;
-				color: $primary-color-dark;
+				color: $primary-color;
 			}
 
 			span.option-label.selected {
 				margin-left: 1.5em;
+				color: $primary-color;
 			}
 		}
 	}

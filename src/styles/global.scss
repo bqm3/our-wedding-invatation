@@ -1,12 +1,12 @@
 .vi {
 	font-family: 'Noto Serif VI', serif;
 	font-display: block;
-	color: $white-2;
+	color: $font-color-default;
 	word-break: keep-all;
 }
 
 .en {
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Noto Serif EN', serif;
 	font-weight: 500;
 	font-style: normal;
 	font-display: block;
@@ -14,7 +14,7 @@
 }
 
 .en-sacramento {
-	font-family: 'Sacramento', serif;
+	font-family: "Pinyon Script", cursive;
 	font-weight: 400;
 	font-style: normal;
 	color: $font-color-default;

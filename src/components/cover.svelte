@@ -29,15 +29,9 @@
 			fallDistance={`${sectionHeight}px`}
 		/>
 	</div>
-
-	<div class="names-vi-box">
-		<span class="names vi">Trăm năm tình viên mãn</span>
-		<span class="names vi">bạc đầu nghĩa phu thê</span>
-	</div>
-
 	<div class="cover-title-container">
 		<div class="names-en-box">
-			<span class="names en-sacramento">Quang Minh & Anh Thư</span>
+			<span class="names en-sacramento">{$_('meta.title')}</span>
 		</div>
 
 		<div class="event-date-and-place-box">
@@ -113,7 +107,7 @@
 			}
 
 			&.en {
-				font-size: 1.4rem;
+				font-size: 1rem;
 			}
 		}
 

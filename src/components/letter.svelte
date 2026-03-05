@@ -19,31 +19,6 @@
 
 	<div class="letter-container">
 		<p class="letter {localeStore.locale}">{$_('letter.letter_content')}</p>
-
-		{#if localeStore.isEn}
-			<div class="letter-signature">
-				<p class="en">with love</p>
-				<p class="en"><span class="couple-name">Bùi Quang Minh</span> & <span class="couple-name">Nguyễn Anh Thư</span></p>
-			</div>
-		{:else}
-			<div class="family-description vi">
-				<p>
-					<span class="parent-name">Bùi Văn Vinh</span>
-					<span class="name-divider">{@html nameDivider}</span>
-					<span class="parent-name">Hoàng Thị Nhung</span>
-					<span class="role">có con trai</span>
-					<span class="couple-name">Bùi Quang Minh</span>
-				</p>
-
-				<p>
-					<span class="parent-name">Nguyễn Văn Đương</span>
-					<span class="name-divider">{@html nameDivider}</span>
-					<span class="parent-name">Lê Thị Hồng Vân</span>
-					<span class="role">có con gái</span>
-					<span class="couple-name">Nguyễn Anh Thư</span>
-				</p>
-			</div>
-		{/if}
 	</div>
 </section>
 
@@ -52,6 +27,7 @@
 <style lang="scss">
 	section.letter {
 		padding: 4.5em 3.5em 3em 3.5em;
+		color: $font-color-default;
 	}
 
 	.header {
@@ -67,24 +43,28 @@
 	}
 
 	.title {
-		color: $primary-color;
+		color: $font-color-heading;
 		letter-spacing: 1px;
 
-		&.kr {
+		&.vi {
 			@extend .title-font-vi;
 			margin-bottom: 0.4em;
+
+			color: $font-color-heading;
 		}
 
 		&.en {
 			@extend .title-font-en;
 			margin-bottom: 0.2em;
+			color: $font-color-heading;
 		}
 	}
 
 	.sub-title {
-		color: $primary-color;
+		color: $font-color-heading;
+		text-align: center;
 
-		&.kr {
+		&.vi {
 			font-weight: 500;
 			font-size: 1rem;
 		}
@@ -98,14 +78,17 @@
 	p.letter {
 		text-align: center;
 
-		&.kr {
+		&.vi {
 			line-height: 2.3em;
 			font-size: 0.9rem;
+			color: $font-color-default;
 		}
 
 		&.en {
 			line-height: 1.8em;
 			font-size: 1.2rem;
+
+			color: $font-color-default;
 		}
 	}
 
@@ -141,7 +124,7 @@
 			display: flex;
 			justify-content: center;
 			font-size: 12px;
-			color: $primary-color;
+			color: $font-color-default;
 			opacity: 0.9;
 		}
 

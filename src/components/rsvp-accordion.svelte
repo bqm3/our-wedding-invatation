@@ -26,7 +26,7 @@
 {#snippet accordionItem(item: ReturnType<Accordion['getItem']>, content: Snippet)}
 	<div class="item">
 		<div {...item.heading} class="heading">
-			<button {...item.trigger} class="trigger {localeStore.locale}">
+			<button {...item.trigger} class="trigger {localeStore.locale}" >
 				{item.item.title}
 			</button>
 			<div class="chevron-down-container {localeStore.locale}" class:rotate={item.isExpanded}>
@@ -62,8 +62,8 @@
 {/snippet}
 
 <div class="accordion-root" {...accordion.root}>
-	{@render accordionItem(dressCodeItem, dressCodeContent)}
-	{@render accordionItem(menuItem, menuContent)}
+	<!-- {@render accordionItem(dressCodeItem, dressCodeContent)} -->
+	<!-- {@render accordionItem(menuItem, menuContent)} -->
 </div>
 
 <style lang="scss">

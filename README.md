@@ -2,6 +2,6 @@
 
 The mobile-first wedding invitation to our wedding. 
 
-[Vietnamese version](https://emily-marries-anthony.com)
+[Vietnamese version](minhthuwed.online.com)
 
-[English](https://emily-marries-anthony.com/?lang=en)
+[English](https://minhthuwed.online/?lang=en)

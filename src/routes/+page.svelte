@@ -6,6 +6,7 @@
 	import Location from '../components/location.svelte';
 	import type { PageProps } from './$types';
 	import Gallery from '../components/gallery.svelte';
+	import Donate from '../components/donate.svelte';
 
 	let { form }: PageProps = $props();
 </script>
@@ -15,4 +16,5 @@
 <Rsvp {form} />
 <Gallery />
 <Calendar />
+<Donate />
 <Location />
