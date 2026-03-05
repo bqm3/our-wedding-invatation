@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Lễ Cưới Quang Minh & Anh Thư"
+  },
+  "cover": {
+    "date": "30.03.2026 Thứ Hai, 11:00 sáng",
+    "place": "Xã Đông Hòa, Thành phố Thái Bình, Tỉnh Thái Bình"
+  },
+  "letter": {
+    "date": "30.03.2026",
+    "sub_title": "Trân trọng kính mời bạn đến dự lễ cưới của chúng tôi!",
+    "letter_content": "Bạn đã cùng chúng tôi trải qua rất nhiều khoảnh khắc đáng nhớ — từ những ngày còn trên giảng đường đại học, những chuyến cắm trại, cho đến những lần cùng nhau chia sẻ niềm vui trong cuộc sống.\nHãy đến chung vui cùng chúng tôi trong một trong những cột mốc quan trọng nhất của cuộc đời! Chúng tôi sẽ vô cùng hạnh phúc khi được đón tiếp và cùng bạn chứng kiến khoảnh khắc thiêng liêng này khi chúng tôi bắt đầu hành trình mới của cuộc đời."
+  },
+  "rsvp": {
+    "title": "Xác nhận tham dự",
+    "reply_by": "Vui lòng phản hồi trước ngày 29 tháng 3.",
+    "fullname_placeholder": "Họ và tên",
+    "send": "GỬI",
+    "missing_name_error": "Vui lòng nhập đầy đủ họ và tên.",
+    "missing_rsvp_error": "Vui lòng chọn xác nhận tham dự.",
+    "email_error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "email_success": "Xác nhận của bạn đã được ghi nhận. Xin cảm ơn!",
+    "select": {
+      "select_attendance": "Chọn xác nhận tham dự",
+      "yes": "Có, tôi sẽ tham dự!",
+      "no": "Xin lỗi, tôi không thể tham dự."
+    },
+    "accordion": {
+      "dress_code": "Trang phục",
+      "the_menu": "Thực đơn",
+      "semi_formal": "Trang phục bán trang trọng",
+      "suit_and_tie": "Vest & cà vạt, trang phục cocktail đều phù hợp",
+      "menu_title": "Món chính kết hợp",
+      "beef": "Sườn bò hầm nướng"
+    }
+  },
+  "gallery": {
+    "title": "Thư viện ảnh",
+    "sub_title": "Nhấn vào ảnh để xem kích thước lớn hơn."
+  },
+  "location": {
+    "title": "Địa điểm",
+    "address_copied": "Địa chỉ đã được sao chép!"
+  }
+}
