@@ -31,7 +31,7 @@
 	/>
 	<meta property="og:title" content="Quang Minh & Anh Thư Wedding" />
 	<meta property="og:description" content="Hãy tham gia vào ngày đặc biệt nhất của chúng tôi!" />
-	<meta property="og:image" content="https://quangminh-marries-anhthu.com/preview.jpg" />
+	<meta property="og:image" content="https://quangminh-marries-anhthu.com/preview.webp" />
 	<meta property="og:url" content="https://quangminh-marries-anhthu.com/" />
 	<meta property="og:type" content="website" />
 </svelte:head>

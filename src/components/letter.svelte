@@ -1,5 +1,5 @@
 <script lang="ts">
-	import letterBottom from '$lib/assets/background.jpg';
+	import letterBottom from '$lib/assets/background.webp';
 	import { _ } from 'svelte-i18n';
 	import { localeStore } from '../i18n.svelte';
 	import letterDeco from '$lib/assets/letter-deco.svg';

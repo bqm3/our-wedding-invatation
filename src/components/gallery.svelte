@@ -1,18 +1,18 @@
 <script lang="ts">
-	import photo2 from '$lib/assets/gallery/2.jpg';
-	import photo3 from '$lib/assets/gallery/3.jpg';
-	import photo4 from '$lib/assets/gallery/4.jpg';
-	import photo5 from '$lib/assets/gallery/5.jpg';
-	import photo6 from '$lib/assets/gallery/6.jpg';
-	import photo7 from '$lib/assets/gallery/7.jpg';
-	import photo8 from '$lib/assets/gallery/8.jpg';
-	import photo9 from '$lib/assets/gallery/9.jpg';
-	import photo10 from '$lib/assets/gallery/10.jpg';
-	import photo11 from '$lib/assets/gallery/11.jpg';
-	import photo12 from '$lib/assets/gallery/12.jpg';
-	import photo13 from '$lib/assets/gallery/13.jpg';
-	import photo14 from '$lib/assets/gallery/14.jpg';
-	import photo15 from '$lib/assets/gallery/15.jpg';
+	import photo2 from '$lib/assets/gallery/2.webp';
+	import photo3 from '$lib/assets/gallery/3.webp';
+	import photo4 from '$lib/assets/gallery/4.webp';
+	import photo5 from '$lib/assets/gallery/5.webp';
+	import photo6 from '$lib/assets/gallery/6.webp';
+	import photo7 from '$lib/assets/gallery/7.webp';
+	import photo8 from '$lib/assets/gallery/8.webp';
+	import photo9 from '$lib/assets/gallery/9.webp';
+	import photo10 from '$lib/assets/gallery/10.webp';
+	import photo11 from '$lib/assets/gallery/11.webp';
+	import photo12 from '$lib/assets/gallery/12.webp';
+	import photo13 from '$lib/assets/gallery/13.webp';
+	import photo14 from '$lib/assets/gallery/14.webp';
+	import photo15 from '$lib/assets/gallery/15.webp';
 
 	import PhotoSwipeLightBox from 'photoswipe/lightbox';
 	import PhotoSwipe from 'photoswipe';
