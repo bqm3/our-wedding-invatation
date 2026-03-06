@@ -1,18 +1,4 @@
 <script lang="ts">
-	import photo2 from '$lib/assets/gallery/2.webp';
-	import photo3 from '$lib/assets/gallery/3.webp';
-	import photo4 from '$lib/assets/gallery/4.webp';
-	import photo5 from '$lib/assets/gallery/5.webp';
-	import photo6 from '$lib/assets/gallery/6.webp';
-	import photo7 from '$lib/assets/gallery/7.webp';
-	import photo8 from '$lib/assets/gallery/8.webp';
-	import photo9 from '$lib/assets/gallery/9.webp';
-	import photo10 from '$lib/assets/gallery/10.webp';
-	import photo11 from '$lib/assets/gallery/11.webp';
-	import photo12 from '$lib/assets/gallery/12.webp';
-	import photo13 from '$lib/assets/gallery/13.webp';
-	import photo14 from '$lib/assets/gallery/14.webp';
-	import photo15 from '$lib/assets/gallery/15.webp';
 
 	import PhotoSwipeLightBox from 'photoswipe/lightbox';
 	import PhotoSwipe from 'photoswipe';
@@ -34,52 +20,52 @@
 
 	const photos = [
 		{
-			src: photo10,
+			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767418/PMN04638_c8zjpi.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: photo6,
+			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767422/PMN04274_pt74gr.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: photo3,
+			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767424/PMN04499_nixmy4.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: photo14,
+			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767425/PMN05047_hgnvrl.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: photo5,
+			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767417/PMN04245_yieya7.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: photo13,
+			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767418/PMN04867_ivafag.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: photo7,
+			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767416/PMN04389_rfy5jq.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: photo15,
+			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767428/PMN05056_z7oya0.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: photo9,
+			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767425/PMN04582_u6knu2.jpg",
 			width: 1200,
 			height: 1790
 		},
 		{
-			src: photo12,
+			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767418/PMN04777_hfwvcl.jpg",
 			width: 1200,
 			height: 1790
 		}
@@ -100,7 +86,7 @@
 				data-pswp-height={photo.height}
 				target="_blank"
 			>
-				<img class="thumbnail" src={photo.src} alt="" />
+				<img class="thumbnail" src={photo.src} alt="" loading="lazy"/>
 			</a>
 		{/each}
 	</div>

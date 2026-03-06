@@ -25,7 +25,7 @@
 
 <section class="rsvp">
 	<div class="header">
-		<img class="header-deco" src={rsvpDeco} alt="rsvp header deco" />
+		<img class="header-deco" src={rsvpDeco} alt="rsvp header deco" fetchpriority="high"/>
 		<h2 class="title {localeStore.locale}">{$_('rsvp.title')}</h2>
 		<p class="sub-title {localeStore.locale}">
 			{$_('rsvp.reply_by')}

@@ -1,5 +1,4 @@
 <script lang="ts">
-	import letterBottom from '$lib/assets/background.webp';
 	import { _ } from 'svelte-i18n';
 	import { localeStore } from '../i18n.svelte';
 	import letterDeco from '$lib/assets/letter-deco.svg';
@@ -12,7 +11,7 @@
 
 <section class="letter">
 	<div class="header">
-		<img class="header-deco" src={letterDeco} alt="letter header deco" />
+		<img class="header-deco" src={letterDeco} alt="letter header deco" fetchpriority="high"/>
 		<h2 class="title {localeStore.locale}">{$_('letter.date')}</h2>
 		<p class="sub-title {localeStore.locale}">{$_('letter.sub_title')}</p>
 	</div>
@@ -22,7 +21,7 @@
 	</div>
 </section>
 
-<img class="letter-bottom" src={letterBottom} alt="letter bottom" />
+<img class="letter-bottom" src={"https://res.cloudinary.com/dhothev66/image/upload/v1772767424/PMN04938_tdqgnu.jpg"} alt="letter bottom" fetchpriority="high"/>
 
 <style lang="scss">
 	section.letter {

@@ -44,7 +44,7 @@
 <style lang="scss">
 	section.cover {
 		position: relative;
-		background-image: url('/src/lib/assets/cover.webp');
+		background-image: url('https://res.cloudinary.com/dhothev66/image/upload/v1772767419/PMN04758_cx19wd.jpg');
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
