@@ -14,14 +14,14 @@
 	const banksVI: BankBoxProps[] = [
 		{
 			title: 'Mừng cưới đến Chú rể',
-			qrSrc: '/src/lib/assets/cr.png',
+			qrSrc: '/src/lib/assets/cr.webp',
 			bankName: 'Vietcombank',
 			accountName: 'BÙI QUANG MINH',
 			accountNumber: '0301000421715'
 		},
 		{
 			title: 'Mừng cưới đến Cô dâu',
-			qrSrc: '/src/lib/assets/cd.png',
+			qrSrc: '/src/lib/assets/cd.webp',
 			bankName: 'Vietcombank',
 			accountName: 'NGUYỄN ANH THƯ',
 			accountNumber: '1049839160'
@@ -32,14 +32,14 @@
 	const banksEN: BankBoxProps[] = [
 		{
 			title: 'Wedding gift for the Groom',
-			qrSrc: '/src/lib/assets/cr.png',
+			qrSrc: '/src/lib/assets/cr.webp',
 			bankName: 'Vietcombank',
 			accountName: 'BUI QUANG MINH',
 			accountNumber: '0301000421715'
 		},
 		{
 			title: 'Wedding gift for the Bride',
-			qrSrc: '/src/lib/assets/cd.png',
+			qrSrc: '/src/lib/assets/cd.webp',
 			bankName: 'Vietcombank',
 			accountName: 'NGUYEN ANH THU',
 			accountNumber: '1049839160'
