@@ -2,6 +2,9 @@
 	import { Clipboard, Check } from '@lucide/svelte';
 	import { localeStore } from '../i18n.svelte';
 
+	import qrGroom from '$lib/assets/cr.webp';
+	import qrBride from '$lib/assets/cd.webp';
+
 	type BankBoxProps = {
 		title: string;
 		qrSrc: string;
@@ -10,47 +13,44 @@
 		accountNumber: string;
 	};
 
-	// VI data
 	const banksVI: BankBoxProps[] = [
 		{
 			title: 'Mừng cưới đến Chú rể',
-			qrSrc: '/src/lib/assets/cr.webp',
+			qrSrc: qrGroom,
 			bankName: 'Vietcombank',
 			accountName: 'BÙI QUANG MINH',
 			accountNumber: '0301000421715'
 		},
 		{
 			title: 'Mừng cưới đến Cô dâu',
-			qrSrc: '/src/lib/assets/cd.webp',
+			qrSrc: qrBride,
 			bankName: 'Vietcombank',
 			accountName: 'NGUYỄN ANH THƯ',
 			accountNumber: '1049839160'
 		}
 	];
 
-	// EN data (dịch + đổi title)
 	const banksEN: BankBoxProps[] = [
 		{
 			title: 'Wedding gift for the Groom',
-			qrSrc: '/src/lib/assets/cr.webp',
+			qrSrc: qrGroom,
 			bankName: 'Vietcombank',
 			accountName: 'BUI QUANG MINH',
 			accountNumber: '0301000421715'
 		},
 		{
 			title: 'Wedding gift for the Bride',
-			qrSrc: '/src/lib/assets/cd.webp',
+			qrSrc: qrBride,
 			bankName: 'Vietcombank',
 			accountName: 'NGUYEN ANH THU',
 			accountNumber: '1049839160'
 		}
 	];
 
-	// texts theo ngôn ngữ
 	$: t = localeStore.isEn
 		? {
 				heading: 'Send lots of love',
-				desc: 'Love has no barriers. It jumps hurdles, leaps fences, and breaks through walls to arrive at its destination full of hope.',
+				desc: 'Love has no barriers. It jumps hurdles, breaks through walls to arrive at its destination full of hope.',
 				labels: {
 					bank: 'Bank',
 					owner: 'Account name',
@@ -62,7 +62,7 @@
 			}
 		: {
 				heading: 'Gửi ngàn yêu thương',
-				desc: 'Tình yêu không có rào cản. Nó nhảy rào, nhảy rào, xuyên tường để đến đích với đầy hy vọng.',
+				desc: 'Tình yêu không có rào cản. Nó nhảy rào, xuyên tường để đến đích với đầy hy vọng.',
 				labels: {
 					bank: 'Ngân hàng',
 					owner: 'Chủ tài khoản',
@@ -73,10 +73,8 @@
 				copied: 'Đã copy'
 			};
 
-	// chọn data theo ngôn ngữ
 	$: banks = localeStore.isEn ? banksEN : banksVI;
 
-	// state copy theo từng box
 	let copiedMap: Record<number, boolean> = {};
 
 	async function copyAccountNumber(index: number, value: string) {
@@ -86,9 +84,7 @@
 			setTimeout(() => {
 				copiedMap = { ...copiedMap, [index]: false };
 			}, 1500);
-		} catch {
-			// ignore
-		}
+		} catch {}
 	}
 </script>
 
