@@ -14,6 +14,8 @@
 	if (browser && window.matchMedia('(max-width: 1024px)')) {
 		setSectionHeight();
 	}
+
+	console.log('localeStore.locale', localeStore.locale)
 </script>
 
 <section style:height={`${sectionHeight}px`} class="cover">
@@ -44,7 +46,7 @@
 <style lang="scss">
 	section.cover {
 		position: relative;
-		background-image: url('https://res.cloudinary.com/dhothev66/image/upload/v1772767419/PMN04758_cx19wd.jpg');
+		background-image: url('https://res.cloudinary.com/dftxlzy81/image/upload/v1772981522/IMG_9940_liloeb.jpg');
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
@@ -59,6 +61,20 @@
 		pointer-events: none;
 	}
 	.names-vi-box {
+		position: absolute;
+		top: 3em;
+		left: 4em;
+
+		span.names {
+			color: #616161;
+			display: block;
+			font-size: 1rem;
+			letter-spacing: 0.8em;
+			line-height: 2;
+		}
+	}
+
+	.names-vi-29-box {
 		position: absolute;
 		top: 3em;
 		left: 4em;
@@ -102,17 +118,20 @@
 			display: block;
 			color: $white;
 
-			&.vi {
-				font-size: 1rem;
-			}
+			font-size: 1rem;
+			text-align: center;
 
-			&.en {
-				font-size: 1rem;
-			}
+			// &.vi {
+			// 	font-size: 1rem;
+			// }
+
+			// &.en {
+			// 	font-size: 1rem;
+			// }
 		}
 
-		span.event-date-and-time.vi {
-			margin-bottom: 0.4em;
-		}
+		// span.event-date-and-time.vi {
+		// 	margin-bottom: 0.4em;
+		// }
 	}
 </style>

@@ -4,11 +4,15 @@
 	import { localeStore } from '../i18n.svelte';
 	import { Clipboard, Github } from '@lucide/svelte';
 
-	const ADDRESS_VI = 'xóm 6, xã Đông Hòa, thành phố Thái Bình, tỉnh Thái Bình';
+	const ADDRESS_VI = 'XÓM 6, TDP NAM HIỆP TRUNG, PHƯỜNG TRÀ LÝ, TỈNH HƯNG YÊN';
+	const ADDRESS_29 = 'XÓM 6, TDP NAM HIỆP TRUNG, PHƯỜNG TRÀ LÝ, TỈNH HƯNG YÊN';
 	const ADDRESS_EN = 'Star Galaxy Wedding and Event Center';
 
 	// 2 link embed (pb=...) tương ứng VI/EN
 	const MAP_EMBED_VI =
+		'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d934.4072173042761!2d106.3351182696956!3d20.480430998814747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDI4JzQ5LjYiTiAxMDbCsDIwJzA4LjciRQ!5e0!3m2!1svi!2s!4v1772719296642!5m2!1svi!2s';
+
+	const MAP_EMBED_29 =
 		'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d934.4072173042761!2d106.3351182696956!3d20.480430998814747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDI4JzQ5LjYiTiAxMDbCsDIwJzA4LjciRQ!5e0!3m2!1svi!2s!4v1772719296642!5m2!1svi!2s';
 
 	const MAP_EMBED_EN =
@@ -25,6 +29,7 @@
 			.catch(() => null);
 	}
 </script>
+
 <!-- 
 <img src={locationTopWave} class="location-top-wave" alt="" /> -->
 
@@ -54,8 +59,8 @@
 			allowfullscreen
 			loading="lazy"
 			referrerpolicy="no-referrer-when-downgrade"
-	>
-	</iframe>
+		>
+		</iframe>
 	</div>
 
 	<p class="signature en">made with ♡ by Quang Minh & Anh Thư</p>

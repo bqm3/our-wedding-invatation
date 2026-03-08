@@ -20,55 +20,55 @@
 
 	const photos = [
 		{
-			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767418/PMN04638_c8zjpi.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981415/IMG_0473_faiqwz.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767422/PMN04274_pt74gr.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981688/IMG_0469_1_sgqftf.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767424/PMN04499_nixmy4.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981429/Snapseed_1_pyzqoa.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767425/PMN05047_hgnvrl.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981416/Snapseed_lzgn3r.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767417/PMN04245_yieya7.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981416/IMG_0481_okas3g.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767418/PMN04867_ivafag.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981415/IMG_0475_wy3vp6.jpg",
 			width: 1200,
 			height: 1800
 		},
-		{
-			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767416/PMN04389_rfy5jq.jpg",
-			width: 1200,
-			height: 1800
-		},
-		{
-			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767428/PMN05056_z7oya0.jpg",
-			width: 1200,
-			height: 1800
-		},
-		{
-			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767425/PMN04582_u6knu2.jpg",
-			width: 1200,
-			height: 1790
-		},
-		{
-			src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767418/PMN04777_hfwvcl.jpg",
-			width: 1200,
-			height: 1790
-		}
+		// {
+		// 	src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767416/PMN04389_rfy5jq.jpg",
+		// 	width: 1200,
+		// 	height: 1800
+		// },
+		// {
+		// 	src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767428/PMN05056_z7oya0.jpg",
+		// 	width: 1200,
+		// 	height: 1800
+		// },
+		// {
+		// 	src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767425/PMN04582_u6knu2.jpg",
+		// 	width: 1200,
+		// 	height: 1790
+		// },
+		// {
+		// 	src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767418/PMN04777_hfwvcl.jpg",
+		// 	width: 1200,
+		// 	height: 1790
+		// }
 	];
 </script>
 

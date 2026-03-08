@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Quang Minh & Anh Thư"
+  },
+  "cover": {
+    "date": "29.03.2026 Chủ Nhật, 04:00 chiều",
+    "place": "TDP NAM HIỆP TRUNG, PHƯỜNG TRÀ LÝ, TỈNH HƯNG YÊN"
+  },
+  "letter": {
+    "date": "29.03.2026",
+    "sub_title": "Trân trọng kính mời bạn đến dự lễ cưới của chúng tôi!",
+    "letter_content": "Sau bao ngày cùng nhau đồng hành, sẻ chia, chúng mình quyết định viết tiếp câu chuyện bằng một khởi đầu mới – một mái ấm gia đình. Chúng mình rất mong được đón nhận sự chúc phúc từ gia đình và bạn bè thân yêu trong ngày trọng đại này."
+  },
+  "rsvp": {
+    "title": "Xác nhận tham dự",
+    "reply_by": "Vui lòng phản hồi trước ngày 15 tháng 3.",
+    "fullname_placeholder": "Họ và tên",
+    "send": "GỬI",
+    "missing_name_error": "Vui lòng nhập đầy đủ họ và tên.",
+    "missing_rsvp_error": "Vui lòng chọn xác nhận tham dự.",
+    "email_error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "email_success": "Xác nhận của bạn đã được ghi nhận. Xin cảm ơn!",
+    "select": {
+      "select_attendance": "Chọn xác nhận tham dự",
+      "yes": "Có, tôi sẽ tham dự!",
+      "no": "Xin lỗi, tôi không thể tham dự."
+    },
+    "accordion": {
+      "dress_code": "Trang phục",
+      "the_menu": "Thực đơn",
+      "semi_formal": "Trang phục trang trọng",
+      "suit_and_tie": "Vest & cà vạt, trang phục cocktail đều phù hợp",
+      "menu_title": "Món chính kết hợp",
+      "beef": "Sườn bò hầm nướng"
+    }
+  },
+  "gallery": {
+    "title": "Thư viện ảnh",
+    "sub_title": "Nhấn vào ảnh để xem kích thước lớn hơn."
+  },
+  "location": {
+    "title": "Địa điểm",
+    "address_copied": "Địa chỉ đã được sao chép!"
+  }
+}

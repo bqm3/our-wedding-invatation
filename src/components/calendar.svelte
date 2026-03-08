@@ -15,6 +15,15 @@
 		time: '11 giờ'
 	};
 
+	// VI-29 wedding
+	const weddingVI29 = {
+		year: 2026,
+		monthIndex: 2,
+		title: 'Tháng 3, 2026',
+		day: 29,
+		time: '4 giờ'
+	};
+
 	// EN wedding
 	const weddingEN = {
 		year: 2026,
@@ -32,7 +41,12 @@
 		return new Date(y, m, 1).getDay();
 	}
 
-	$: config = localeStore.isEn ? weddingEN : weddingVI;
+	$: config = localeStore.isEn
+		? weddingEN
+		: localeStore.isVi29
+			? weddingVI29
+			: weddingVI;
+
 	$: weekdays = localeStore.isEn ? weekdaysEN : weekdaysVI;
 
 	$: totalDays = daysInMonth(config.year, config.monthIndex);

@@ -7,10 +7,13 @@
 	import type { PageProps } from './$types';
 	import Gallery from '../components/gallery.svelte';
 	import Donate from '../components/donate.svelte';
+	import MusicPlayer from '../components/music-player.svelte';
+
 
 	let { form }: PageProps = $props();
 </script>
 
+<MusicPlayer />
 <Cover />
 <Letter />
 <Rsvp {form} />
