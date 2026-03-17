@@ -13,7 +13,7 @@
   },
   "rsvp": {
     "title": "Xác nhận tham dự",
-    "reply_by": "Vui lòng phản hồi trước ngày 15 tháng 3.",
+    "reply_by": "Vui lòng phản hồi trước ngày 20 tháng 3.",
     "fullname_placeholder": "Họ và tên",
     "send": "GỬI",
     "missing_name_error": "Vui lòng nhập đầy đủ họ và tên.",
