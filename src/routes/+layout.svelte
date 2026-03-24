@@ -8,7 +8,8 @@
 	let { children } = $props();
 
 	let localeLoaded = $derived(!localeStore.isLoading && localeStore.locale);
-	let title = $state('');
+	let title = $state('Quang Minh & Anh Thư Wedding');
+
 	onMount(() => {
 		document.body.classList.add('loaded');
 		if (localeLoaded) {
@@ -19,6 +20,7 @@
 
 <svelte:head>
 	<title>{title}</title>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
 	<link
@@ -29,11 +31,31 @@
 		rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
 	/>
+
+	<meta name="description" content="Hãy tham gia vào ngày đặc biệt nhất của chúng mình nhé!" />
+
 	<meta property="og:title" content="Quang Minh & Anh Thư Wedding" />
-	<meta property="og:description" content="Hãy tham gia vào ngày đặc biệt nhất của chúng tôi!" />
-	<meta property="og:image" content="https://quangminh-marries-anhthu.com/preview.webp" />
+	<meta
+		property="og:description"
+		content="Hãy tham gia vào ngày đặc biệt nhất của chúng mình nhé!"
+	/>
+	<meta
+		property="og:image"
+		content="https://res.cloudinary.com/dftxlzy81/image/upload/v1772981415/IMG_0491_yu9gst.jpg"
+	/>
 	<meta property="og:url" content="https://quangminh-marries-anhthu.com/" />
 	<meta property="og:type" content="website" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Quang Minh & Anh Thư Wedding" />
+	<meta
+		name="twitter:description"
+		content="Hãy tham gia vào ngày đặc biệt nhất của chúng mình nhé!"
+	/>
+	<meta
+		name="twitter:image"
+		content="https://res.cloudinary.com/dftxlzy81/image/upload/v1772981415/IMG_0491_yu9gst.jpg"
+	/>
 </svelte:head>
 
 {#if localeLoaded}
