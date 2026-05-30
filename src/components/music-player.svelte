@@ -1,7 +1,9 @@
 <script lang="ts">
-	import musicUrl from '$lib/assets/Ordinary.mp3';
 	import { onMount } from 'svelte';
 	import { Volume2, VolumeX } from 'lucide-svelte';
+
+	// Thay URL dưới đây bằng URL file MP3 sau khi bạn upload lên Cloudinary của mình
+	const musicUrl = 'https://res.cloudinary.com/dftxlzy81/video/upload/v1780145432/Ordinary_orzci1.mp3';
 
 	let audio: HTMLAudioElement;
 	let playing = $state(false);
