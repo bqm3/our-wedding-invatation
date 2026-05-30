@@ -41,7 +41,7 @@
 	/>
 	<meta
 		property="og:image"
-		content="https://res.cloudinary.com/dftxlzy81/image/upload/v1772981415/IMG_0491_yu9gst.jpg"
+		content="https://res.cloudinary.com/dftxlzy81/image/upload/v1780138873/bg-full_udkdyv.jpg"
 	/>
 	<meta property="og:url" content="https://quangminh-marries-anhthu.com/" />
 	<meta property="og:type" content="website" />
@@ -54,7 +54,7 @@
 	/>
 	<meta
 		name="twitter:image"
-		content="https://res.cloudinary.com/dftxlzy81/image/upload/v1772981415/IMG_0491_yu9gst.jpg"
+		content="https://res.cloudinary.com/dftxlzy81/image/upload/v1780138873/bg-full_udkdyv.jpg"
 	/>
 </svelte:head>
 
