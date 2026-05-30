@@ -46,7 +46,7 @@
 			height: 1800
 		},
 		{
-			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1780138872/anh2-ot_mhdbxp.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1780138877/anh3-ot_pug61g.jpg",
 			width: 1200,
 			height: 1800
 		},
