@@ -2,9 +2,9 @@
 
 The mobile-first wedding invitation to our wedding. 
 
-[Vietnamese version](minhthuwed.online.com)
+[Vietnamese version](https://phuong-an-wedding.online)
 
-[English](https://minhthuwed.online/?lang=en)
+[English](https://phuong-an-wedding.online/?lang=en)
 
 
 Chạy nền bằng systemd

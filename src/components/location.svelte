@@ -4,19 +4,19 @@
 	import { localeStore } from '../i18n.svelte';
 	import { Clipboard, Github } from '@lucide/svelte';
 
-	const ADDRESS_VI = 'XÓM 6, TDP NAM HIỆP TRUNG, PHƯỜNG TRÀ LÝ, TỈNH HƯNG YÊN';
-	const ADDRESS_29 = 'XÓM 6, TDP NAM HIỆP TRUNG, PHƯỜNG TRÀ LÝ, TỈNH HƯNG YÊN';
-	const ADDRESS_EN = 'Star Galaxy Wedding and Event Center';
+	const ADDRESS_VI = 'TRUNG TÂM TIỆC CƯỚI HÀ DƯƠNG PLACE - 431 Tam Trinh - KĐT Vĩnh Hoàng - Hà Nội';
+	const ADDRESS_29 = 'TRUNG TÂM TIỆC CƯỚI HÀ DƯƠNG PLACE - 431 Tam Trinh - KĐT Vĩnh Hoàng - Hà Nội';
+	const ADDRESS_EN = 'TRUNG TÂM TIỆC CƯỚI HÀ DƯƠNG PLACE - 431 Tam Trinh - KĐT Vĩnh Hoàng - Hà Nội';
 
 	// 2 link embed (pb=...) tương ứng VI/EN
 	const MAP_EMBED_VI =
-		'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d934.4072173042761!2d106.3351182696956!3d20.480430998814747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDI4JzQ5LjYiTiAxMDbCsDIwJzA4LjciRQ!5e0!3m2!1svi!2s!4v1772719296642!5m2!1svi!2s';
+		'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1478.35421624351!2d105.86414961292036!3d20.983851009060782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac1794212e69%3A0xa7c3a7be3aee825b!2zVHJ1bmcgdMOibSB04buVIGNo4bupYyB0aeG7h2MgY8aw4bubaSBIw6AgRMawxqFuZyBQYWxhY2U!5e0!3m2!1svi!2sus!4v1780134206389!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
 
 	const MAP_EMBED_29 =
-		'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d934.4072173042761!2d106.3351182696956!3d20.480430998814747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDI4JzQ5LjYiTiAxMDbCsDIwJzA4LjciRQ!5e0!3m2!1svi!2s!4v1772719296642!5m2!1svi!2s';
+		'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1478.35421624351!2d105.86414961292036!3d20.983851009060782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac1794212e69%3A0xa7c3a7be3aee825b!2zVHJ1bmcgdMOibSB04buVIGNo4bupYyB0aeG7h2MgY8aw4bubaSBIw6AgRMawxqFuZyBQYWxhY2U!5e0!3m2!1svi!2sus!4v1780134206389!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
 
 	const MAP_EMBED_EN =
-		'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.39121185208!2d105.81320227710034!3d21.017027080629457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab64a157d313%3A0xc315cd481b1a6e5!2zVHJ1bmcgVMOibSBUaeG7h2MgQ8aw4bubaSBWw6AgU-G7sSBLaeG7h24gU3RhciBHYWxheHk!5e0!3m2!1svi!2s!4v1772719330166!5m2!1svi!2s';
+		'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1478.35421624351!2d105.86414961292036!3d20.983851009060782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac1794212e69%3A0xa7c3a7be3aee825b!2zVHJ1bmcgdMOibSB04buVIGNo4bupYyB0aeG7h2MgY8aw4bubaSBIw6AgRMawxqFuZyBQYWxhY2U!5e0!3m2!1svi!2sus!4v1780134206389!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
 
 	// chọn địa chỉ + map theo ngôn ngữ
 	$: currentAddress = localeStore.isEn ? ADDRESS_EN : ADDRESS_VI;
@@ -63,7 +63,7 @@
 		</iframe>
 	</div>
 
-	<p class="signature en">made with ♡ by Quang Minh & Anh Thư</p>
+	<p class="signature en">made with ♡ by Kim Phượng & Trường An</p>
 
 	<a class="github-icon" href="https://github.com/bqm3" target="_blank" rel="noreferrer">
 		<Github size="1.1em" strokeWidth={1} />

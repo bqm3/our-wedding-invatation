@@ -15,7 +15,6 @@
 		setSectionHeight();
 	}
 
-	console.log('localeStore.locale', localeStore.locale)
 </script>
 
 <section style:height={`${sectionHeight}px`} class="cover">
@@ -46,7 +45,7 @@
 <style lang="scss">
 	section.cover {
 		position: relative;
-		background-image: url('https://res.cloudinary.com/dftxlzy81/image/upload/v1772981522/IMG_9940_liloeb.jpg');
+		background-image: url('https://res.cloudinary.com/dftxlzy81/image/upload/v1780133275/BG-CHI-OY_1_saafze.jpg');
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
@@ -89,9 +88,24 @@
 	}
 
 	.cover-title-container {
-		width: 100%;
+		width: calc(100% - 3rem);
+		max-width: 480px;
 		position: absolute;
-		bottom: 1.5em;
+		bottom: 2em;
+		left: 50%;
+		transform: translateX(-50%);
+		background: rgba(255, 255, 255, 0.45);
+		backdrop-filter: blur(12px);
+		-webkit-backdrop-filter: blur(12px);
+		border: 1px solid rgba(255, 255, 255, 0.5);
+		border-radius: 16px;
+		padding: 1.5em 1em;
+		box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.06);
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		gap: 0.6em;
+		z-index: 2;
 	}
 
 	.names-en-box {
@@ -101,7 +115,7 @@
 
 		span.names {
 			display: block;
-			color: $white;
+			color: #222222;
 			word-spacing: 5px;
 			font-size: 2.2rem;
 		}
@@ -116,7 +130,7 @@
 		span.event-date-and-time,
 		span.event-place {
 			display: block;
-			color: $white;
+			color: #222222;
 
 			font-size: 1rem;
 			text-align: center;

@@ -21,7 +21,7 @@
 	</div>
 </section>
 
-<img class="letter-bottom" src={"https://res.cloudinary.com/dftxlzy81/image/upload/v1772981415/PMN05082_jbb54g.jpg"} alt="letter bottom" fetchpriority="high"/>
+<img class="letter-bottom" src={"https://res.cloudinary.com/dftxlzy81/image/upload/v1780138873/bg-full_udkdyv.jpg"} alt="letter bottom" fetchpriority="high"/>
 
 <style lang="scss">
 	section.letter {

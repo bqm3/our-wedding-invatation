@@ -1,5 +1,5 @@
 <script lang="ts">
-	import musicUrl from '$lib/assets/wedding-music.mp3';
+	import musicUrl from '$lib/assets/Ordinary.mp3';
 	import { onMount } from 'svelte';
 	import { Volume2, VolumeX } from 'lucide-svelte';
 
@@ -51,7 +51,7 @@
 
 <audio bind:this={audio} src={musicUrl} loop preload="auto"></audio>
 
-<button class="music-btn" on:click={toggle}>
+<button class="music-btn" onclick={toggle}>
 	{#if playing}
 		<Volume2 size="20" />
 	{:else}

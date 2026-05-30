@@ -2,8 +2,8 @@
 	import { Clipboard, Check } from '@lucide/svelte';
 	import { localeStore } from '../i18n.svelte';
 
-	import qrGroom from '$lib/assets/cr.webp';
-	import qrBride from '$lib/assets/cd.webp';
+	import qrGroom from '$lib/assets/chu-re.png';
+	import qrBride from '$lib/assets/co-dau.png';
 
 	type BankBoxProps = {
 		title: string;
@@ -15,36 +15,38 @@
 
 	const banksVI: BankBoxProps[] = [
 		{
-			title: 'Mừng cưới đến Chú rể',
-			qrSrc: qrGroom,
-			bankName: 'Vietcombank',
-			accountName: 'BÙI QUANG MINH',
-			accountNumber: '0301000421715'
-		},
-		{
 			title: 'Mừng cưới đến Cô dâu',
 			qrSrc: qrBride,
-			bankName: 'Vietcombank',
-			accountName: 'NGUYỄN ANH THƯ',
-			accountNumber: '1049839160'
-		}
+			bankName: 'VPBANK',
+			accountName: 'VO THI KIM PHUONG',
+			accountNumber: '0982730220'
+		},
+		{
+			title: 'Mừng cưới đến Chú rể',
+			qrSrc: qrGroom,
+			bankName: 'MB BANK',
+			accountName: 'NGUYEN NGOC TRUONG AN',
+			accountNumber: '700972007'
+		},
+		
 	];
 
 	const banksEN: BankBoxProps[] = [
 		{
-			title: 'Wedding gift for the Groom',
-			qrSrc: qrGroom,
-			bankName: 'Vietcombank',
-			accountName: 'BUI QUANG MINH',
-			accountNumber: '0301000421715'
-		},
-		{
 			title: 'Wedding gift for the Bride',
 			qrSrc: qrBride,
-			bankName: 'Vietcombank',
-			accountName: 'NGUYEN ANH THU',
-			accountNumber: '1049839160'
-		}
+			bankName: 'VPBANK',
+			accountName: 'VO THI KIM PHUONG',
+			accountNumber: '0982730220'
+		},
+		{
+			title: 'Wedding gift for the Groom',
+			qrSrc: qrGroom,
+			bankName: 'MB BANK',
+			accountName: 'NGUYEN NGOC TRUONG AN',
+			accountNumber: '700972007'
+		},
+		
 	];
 
 	$: t = localeStore.isEn

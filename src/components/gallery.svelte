@@ -19,36 +19,40 @@
 	});
 
 	const photos = [
+		
 		{
-			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981415/IMG_0473_faiqwz.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1780138952/anh6-ot_etbmgn.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981688/IMG_0469_1_sgqftf.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1780138952/anh5-ot_zn0ua2.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981429/Snapseed_1_pyzqoa.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1780138872/anh2-ot_mhdbxp.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981416/Snapseed_lzgn3r.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1780138873/anh1-ot_xtabvl.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981416/IMG_0481_okas3g.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1780138873/anh4-ot_llhtqn.jpg",
 			width: 1200,
 			height: 1800
 		},
 		{
-			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1772981415/IMG_0475_wy3vp6.jpg",
+			src: "https://res.cloudinary.com/dftxlzy81/image/upload/v1780138872/anh2-ot_mhdbxp.jpg",
 			width: 1200,
 			height: 1800
 		},
+		
+		
+		
 		// {
 		// 	src: "https://res.cloudinary.com/dhothev66/image/upload/v1772767416/PMN04389_rfy5jq.jpg",
 		// 	width: 1200,

@@ -9,19 +9,19 @@
 	// VI wedding
 	const weddingVI = {
 		year: 2026,
-		monthIndex: 2,
-		title: 'Tháng 3, 2026',
-		day: 30,
-		time: '11 giờ'
+		monthIndex: 5,
+		title: 'Tháng 6, 2026',
+		day: 6,
+		time: '10:45'
 	};
 
 	// VI-29 wedding
 	const weddingVI29 = {
 		year: 2026,
-		monthIndex: 2,
-		title: 'Tháng 3, 2026',
-		day: 29,
-		time: '4 giờ'
+		monthIndex: 5,
+		title: 'Tháng 6, 2026',
+		day: 6,
+		time: '10:45'
 	};
 
 	// EN wedding

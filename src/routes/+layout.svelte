@@ -8,7 +8,7 @@
 	let { children } = $props();
 
 	let localeLoaded = $derived(!localeStore.isLoading && localeStore.locale);
-	let title = $state('Quang Minh & Anh Thư Wedding');
+	let title = $state('Kim Phượng & Trường An Wedding');
 
 	onMount(() => {
 		document.body.classList.add('loaded');
@@ -34,7 +34,7 @@
 
 	<meta name="description" content="Hãy tham gia vào ngày đặc biệt nhất của chúng mình nhé!" />
 
-	<meta property="og:title" content="Quang Minh & Anh Thư Wedding" />
+	<meta property="og:title" content="Kim Phượng & Trường An Wedding" />
 	<meta
 		property="og:description"
 		content="Hãy tham gia vào ngày đặc biệt nhất của chúng mình nhé!"
@@ -47,7 +47,7 @@
 	<meta property="og:type" content="website" />
 
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Quang Minh & Anh Thư Wedding" />
+	<meta name="twitter:title" content="Kim Phượng & Trường An Wedding" />
 	<meta
 		name="twitter:description"
 		content="Hãy tham gia vào ngày đặc biệt nhất của chúng mình nhé!"
