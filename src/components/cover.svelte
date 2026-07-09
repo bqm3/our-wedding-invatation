@@ -109,18 +109,30 @@
 	}
 
 	.names-en-box {
-		width: 100%;
-		display: flex;
-		justify-content: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 
+	span.names {
+		display: block;
+		color: #222222;
+		word-spacing: 5px;
+		font-size: clamp(1.55rem, 6vw, 2.2rem);
+		text-align: center;
+		line-height: 1.2;
+	}
+}
+
+
+@media (max-width: 600px) {
+	.names-en-box {
 		span.names {
-			display: block;
-			color: #222222;
-			word-spacing: 5px;
-			font-size: 2.2rem;
+			font-size: 1.45rem;
+			word-spacing: 2px;
+			line-height: 1.25;
 		}
 	}
-
+}
 	.event-date-and-place-box {
 		width: 100%;
 		display: flex;
