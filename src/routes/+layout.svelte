@@ -8,7 +8,7 @@
 	let { children } = $props();
 
 	let localeLoaded = $derived(!localeStore.isLoading && localeStore.locale);
-	let title = $state('Kim Phượng & Trường An Wedding');
+	let title = $state('Trường An & Kim Phượng Wedding');
 
 	onMount(() => {
 		document.body.classList.add('loaded');
@@ -34,20 +34,16 @@
 
 	<meta name="description" content="Hãy tham gia vào ngày đặc biệt nhất của chúng mình nhé!" />
 
-	<meta property="og:title" content="Kim Phượng & Trường An Wedding" />
+	<meta property="og:title" content="Trường An & Kim Phượng Wedding" />
 	<meta
 		property="og:description"
 		content="Hãy tham gia vào ngày đặc biệt nhất của chúng mình nhé!"
 	/>
-	<meta
-		property="og:image"
-		content="https://res.cloudinary.com/dftxlzy81/image/upload/v1780138873/bg-full_udkdyv.jpg"
-	/>
-	<meta property="og:url" content="https://quangminh-marries-anhthu.com/" />
+	
 	<meta property="og:type" content="website" />
 
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Kim Phượng & Trường An Wedding" />
+	<meta name="twitter:title" content="Trường An & Kim Phượng Wedding" />
 	<meta
 		name="twitter:description"
 		content="Hãy tham gia vào ngày đặc biệt nhất của chúng mình nhé!"

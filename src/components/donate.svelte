@@ -15,19 +15,20 @@
 
 	const banksVI: BankBoxProps[] = [
 		{
-			title: 'Mừng cưới đến Cô dâu',
-			qrSrc: qrBride,
-			bankName: 'VPBANK',
-			accountName: 'VO THI KIM PHUONG',
-			accountNumber: '0982730220'
-		},
-		{
 			title: 'Mừng cưới đến Chú rể',
 			qrSrc: qrGroom,
 			bankName: 'MB BANK',
 			accountName: 'NGUYEN NGOC TRUONG AN',
 			accountNumber: '700972007'
 		},
+		{
+			title: 'Mừng cưới đến Cô dâu',
+			qrSrc: qrBride,
+			bankName: 'VPBANK',
+			accountName: 'VO THI KIM PHUONG',
+			accountNumber: '0982730220'
+		},
+		
 		
 	];
 

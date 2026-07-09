@@ -4,19 +4,19 @@
 	import { localeStore } from '../i18n.svelte';
 	import { Clipboard, Github } from '@lucide/svelte';
 
-	const ADDRESS_VI = 'TRUNG TÂM TIỆC CƯỚI HÀ DƯƠNG PLACE - 431 Tam Trinh - KĐT Vĩnh Hoàng - Hà Nội';
-	const ADDRESS_29 = 'TRUNG TÂM TIỆC CƯỚI HÀ DƯƠNG PLACE - 431 Tam Trinh - KĐT Vĩnh Hoàng - Hà Nội';
-	const ADDRESS_EN = 'TRUNG TÂM TIỆC CƯỚI HÀ DƯƠNG PLACE - 431 Tam Trinh - KĐT Vĩnh Hoàng - Hà Nội';
+	const ADDRESS_VI = 'NHÀ HÀNG HƯƠNG THẢO - V96Q+WCH, Thanh Niên Hội An - Duy Hải, Duy Nghĩa, Đà Nẵng';
+	const ADDRESS_29 = 'NHÀ HÀNG HƯƠNG THẢO - V96Q+WCH, Thanh Niên Hội An - Duy Hải, Duy Nghĩa, Đà Nẵng';
+	const ADDRESS_EN = 'NHÀ HÀNG HƯƠNG THẢO - V96Q+WCH, Thanh Niên Hội An - Duy Hải, Duy Nghĩa, Đà Nẵng';
 
 	// 2 link embed (pb=...) tương ứng VI/EN
 	const MAP_EMBED_VI =
-		'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1478.35421624351!2d105.86414961292036!3d20.983851009060782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac1794212e69%3A0xa7c3a7be3aee825b!2zVHJ1bmcgdMOibSB04buVIGNo4bupYyB0aeG7h2MgY8aw4bubaSBIw6AgRMawxqFuZyBQYWxhY2U!5e0!3m2!1svi!2sus!4v1780134206389!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
+		'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d14899.141320824117!2d105.79380725!3d21.001240550000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1svi!2s!4v1783566143055!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
 
 	const MAP_EMBED_29 =
-		'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1478.35421624351!2d105.86414961292036!3d20.983851009060782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac1794212e69%3A0xa7c3a7be3aee825b!2zVHJ1bmcgdMOibSB04buVIGNo4bupYyB0aeG7h2MgY8aw4bubaSBIw6AgRMawxqFuZyBQYWxhY2U!5e0!3m2!1svi!2sus!4v1780134206389!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
+		'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d14899.141320824117!2d105.79380725!3d21.001240550000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1svi!2s!4v1783566143055!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
 
 	const MAP_EMBED_EN =
-		'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1478.35421624351!2d105.86414961292036!3d20.983851009060782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac1794212e69%3A0xa7c3a7be3aee825b!2zVHJ1bmcgdMOibSB04buVIGNo4bupYyB0aeG7h2MgY8aw4bubaSBIw6AgRMawxqFuZyBQYWxhY2U!5e0!3m2!1svi!2sus!4v1780134206389!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
+		'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d14899.141320824117!2d105.79380725!3d21.001240550000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1svi!2s!4v1783566143055!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
 
 	// chọn địa chỉ + map theo ngôn ngữ
 	$: currentAddress = localeStore.isEn ? ADDRESS_EN : ADDRESS_VI;
@@ -52,18 +52,16 @@
 	</button>
 
 	<div class="map">
-		<iframe
-			class="google-maps"
-			title="google maps"
-			src={googleMapsUrl}
-			allowfullscreen
-			loading="lazy"
-			referrerpolicy="no-referrer-when-downgrade"
-		>
-		</iframe>
-	</div>
+	<iframe
+		class="google-maps"
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.8912793867535!2d108.38601841175156!3d15.862310484724146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31420d95ac197a23%3A0xd95c808c97a53fa2!2zTmjDoCBow6BuZyBIxrDGoW5nIFRo4bqjbw!5e0!3m2!1svi!2sus!4v1783566410068!5m2!1svi!2sus"
+		allowfullscreen
+		loading="lazy"
+		referrerpolicy="strict-origin-when-cross-origin"
+	></iframe>
+</div>
 
-	<p class="signature en">made with ♡ by Kim Phượng & Trường An</p>
+	<p class="signature en">made with ♡ by Trường An & Kim Phượng</p>
 
 	<a class="github-icon" href="https://github.com/bqm3" target="_blank" rel="noreferrer">
 		<Github size="1.1em" strokeWidth={1} />
@@ -143,20 +141,21 @@
 	}
 
 	.map {
-		margin-top: 2em;
-		width: 100%;
-		height: 16em;
-		margin-bottom: 7em;
-		max-width: 900px;
-	}
+	margin-top: 2em;
+	width: 100%;
+	max-width: 900px;
+	aspect-ratio: 16 / 9;
+	margin-bottom: 4em;
+}
 
-	iframe.google-maps {
-		width: 100%;
-		height: 100%;
-		border: none;
-		border-radius: 8px;
-		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-	}
+iframe.google-maps {
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 8px;
+	display: block;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
 	p.signature {
 		font-size: 1rem;
@@ -173,4 +172,35 @@
 		bottom: 2.5em;
 		right: 1.5em;
 	}
+
+
+	@media (max-width: 600px) {
+	section.location {
+		padding: 1em 1em 1em;
+	}
+
+	.map {
+		aspect-ratio: 4 / 3;
+		margin-top: 1.5em;
+		margin-bottom: 3em;
+	}
+
+	button.copy-address {
+		max-width: 100%;
+		align-items: flex-start;
+
+		.address {
+			font-size: 0.95rem;
+			line-height: 1.5;
+			text-align: center;
+			word-break: break-word;
+		}
+	}
+
+	img.location-deco {
+		width: 110px;
+		right: 0.8em;
+		bottom: 1em;
+	}
+}
 </style>

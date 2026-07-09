@@ -7,30 +7,31 @@
 	const weekdaysEN = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
 
 	// VI wedding
+	// VI wedding
 	const weddingVI = {
 		year: 2026,
-		monthIndex: 5,
-		title: 'Tháng 6, 2026',
-		day: 6,
-		time: '10:45'
+		monthIndex: 6,
+		title: 'Tháng 7, 2026',
+		day: 21,
+		time: '10:35'
 	};
 
 	// VI-29 wedding
 	const weddingVI29 = {
 		year: 2026,
-		monthIndex: 5,
-		title: 'Tháng 6, 2026',
-		day: 6,
-		time: '10:45'
+		monthIndex: 6,
+		title: 'Tháng 7, 2026',
+		day: 21,
+		time: '10:35'
 	};
 
 	// EN wedding
 	const weddingEN = {
 		year: 2026,
-		monthIndex: 3,
-		title: 'April 2026',
-		day: 11,
-		time: '10 a.m'
+		monthIndex: 6,
+		title: 'July 2026',
+		day: 21,
+		time: '10:35 a.m'
 	};
 
 	function daysInMonth(y: number, m: number) {
@@ -41,11 +42,7 @@
 		return new Date(y, m, 1).getDay();
 	}
 
-	$: config = localeStore.isEn
-		? weddingEN
-		: localeStore.isVi29
-			? weddingVI29
-			: weddingVI;
+	$: config = localeStore.isEn ? weddingEN : localeStore.isVi29 ? weddingVI29 : weddingVI;
 
 	$: weekdays = localeStore.isEn ? weekdaysEN : weekdaysVI;
 
